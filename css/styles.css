@@ -1,1 +1,73 @@
+ :root {
+    --primary-text-color: #757575; 
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+ }
  
+
+/* колір основного тексту color: #757575; */
+
+/* колір додаткового тексту color: #212121; */
+
+/* білий #FFFFFF */
+
+/* лого #000000, #2196F3 */
+/* контакт та пошта color: rgba(255, 255, 255, 0.6); */
+/* background: #F5F4FA; */
+ 
+ body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: #000;
+}
+
+/* site-nav */
+.site-nav .link  {
+    color: var(--title-text-color)
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color)
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+/* contact-nav */
+
+.contact-nav .link-contact {
+    color: var(--primary-text-color)
+}
+
+.contact-nav .link-contact:hover,
+.contact-nav .link-contact:focus {
+    color: var(--accent-color)
+}
+
+/* Hero */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+color: #ffffff;
+}
+.button-hero {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color)
+
+}
+/* Section */
+
+
+.section-title {
+color: var(--title-text-color)
+}
