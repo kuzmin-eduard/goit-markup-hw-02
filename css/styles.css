@@ -3,6 +3,9 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #ffffff;
+    --hero-bgc: #2F303A;
+    --button-portfolio: #F5F4FA;
+
  }
  
 
@@ -26,8 +29,15 @@ ul {
     list-style: none;
 }
 
+
+/* logo */
+
 .logo {
     color: #000;
+}
+.logo:hover,
+.logo:focus {
+color: var(--accent-color);
 }
 
 /* site-nav */
@@ -46,6 +56,9 @@ ul {
 .contact-nav .link-contact {
     color: var(--primary-text-color)
 }
+.contact-nav .link-contact.current {
+    color: var(--accent-color);
+}
 
 .contact-nav .link-contact:hover,
 .contact-nav .link-contact:focus {
@@ -54,20 +67,34 @@ ul {
 
 /* Hero */
 .hero {
-    background-color: #2F303A;
+    background-color: var(--hero-bgc)
 }
 
 .hero-title {
-color: #ffffff;
+color: var(--primary-white-color);
 }
 .button-hero {
     color: var(--primary-white-color);
     background-color: var(--accent-color)
 
 }
+
 /* Section */
 
 
 .section-title {
 color: var(--title-text-color)
+}
+
+
+/* Portfolio */
+
+.button-portfolio {
+    color: var(--title-text-color);
+    background-color: var(--button-portfolio)
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+color: var(--primary-white-color);
+background-color: var(--accent-color)
 }
