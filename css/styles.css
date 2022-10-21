@@ -44,6 +44,7 @@ ul {
     line-height: 1.19;
     text-decoration: none;
     letter-spacing: 0em;
+    font-style: normal;
 }
 
 .logo-header:hover,
@@ -110,7 +111,6 @@ ul {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
 }
 .button-hero {
     color: var(--primary-white-color);
@@ -131,7 +131,6 @@ ul {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    text-transform: uppercase;
 }
 
 .section .text {
@@ -197,6 +196,10 @@ line-height: 1.18;
     background-color: var(--button-portfolio);
     font-family: inherit;
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
