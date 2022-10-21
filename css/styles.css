@@ -151,11 +151,14 @@ ul {
     text-align: center;
 }
 
-
-.section .text-team {
+.section-team .section-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.section-team .text-team {
 font-size: 16px;
 line-height: 1.18;
-text-align: center;
 }
 
 
