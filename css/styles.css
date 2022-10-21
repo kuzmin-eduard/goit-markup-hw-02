@@ -44,7 +44,6 @@ ul {
     line-height: 1.19;
     text-decoration: none;
     letter-spacing: 0em;
-    font-style: normal;
 }
 
 .logo-header:hover,
@@ -171,6 +170,7 @@ line-height: 1.18;
     line-height: 1.71;
     color: var(--primary-white-color);
     text-decoration: none;
+    font-style: normal;
 }
 .footer .footer-address:hover,
 .footer .footer-address:focus {
