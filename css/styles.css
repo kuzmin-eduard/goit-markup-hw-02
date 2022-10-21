@@ -25,6 +25,7 @@
     background-color: var(--primary-white-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
+    font-weight: 400;
 }
 
 ul {
@@ -34,19 +35,33 @@ ul {
 
 /* logo */
 
-.logo {
+.logo-header,
+.logo-footer {
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    letter-spacing: 0em;
 }
 
-.logo:hover,
-.logo:focus {
+.logo-header:hover,
+.logo-header:focus {
     color: var(--accent-color);
 }
+.logo-footer:hover,
+.logo-footer:focus {
+    color: var(--accent-color);
+}
+
+.logo-header .studio {
+    color: var(--title-text-color);
+}
+.logo-footer .studio {
+    color: var(--primary-white-color);
+}
+
 
 /* site-nav */
 .site-nav .link  {
@@ -144,7 +159,7 @@ text-align: center;
 }
 
 
-/* footer  повернутісь до цього пізніше*/
+/* footer */
 
 .footer {
     background-color: var(--hero-footer-bgc)
@@ -184,4 +199,21 @@ text-align: center;
 .button-portfolio:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color)
+}
+
+/* title-name */
+
+.title-name {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+/* filter */
+
+.filter {
+    font-size: 16px;
+    line-height: 1.88;
 }
