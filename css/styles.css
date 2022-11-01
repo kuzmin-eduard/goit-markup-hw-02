@@ -5,7 +5,7 @@
     --primary-white-color: #ffffff;
     --hero-footer-bgc: #2F303A;
     --button-portfolio: #F5F4FA;
-    --contact-footer-color: #ffffff99;
+    --contact-footer-color: rgba(255, 255, 255, 0.6);
 
  }
  
@@ -154,9 +154,11 @@ ul {
     font-size: 16px;
     line-height: 1.18;
 }
-.section-team .text-team {
+.section-team .text-team,
+.section-team .section-title {
 font-size: 16px;
 line-height: 1.18;
+text-align: center;
 }
 
 
